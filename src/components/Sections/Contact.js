@@ -2,12 +2,14 @@ import React, { useEffect } from "react"
 import SVG from "../../images/last.svg"
 import { FiPhoneCall } from "@react-icons/all-files/fi/FiPhoneCall"
 import { FiMail } from "@react-icons/all-files/fi/FiMail"
-import gsap from "gsap"
+import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 const Contact = () => {
-  useEffect(() => {
+  if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger)
+  }
+  useEffect(() => {
     let tl = gsap.timeline({
       scrollTrigger: ".trigger",
       start: "top bottom",

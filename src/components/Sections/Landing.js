@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Hero from "../HeroHeader/StyledHero"
 import Img from "gatsby-image"
 import { gsap } from "gsap"
+
 const Landing = () => {
   const data = useStaticQuery(graphql`
     {
@@ -32,7 +33,6 @@ const Landing = () => {
       ease: "power-3",
       y: -60,
       scale: 1.1,
-      //duration: 0.2,
     })
   }, [])
   return (

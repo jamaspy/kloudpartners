@@ -8,7 +8,12 @@ import {
   Specialism,
   Testimonials,
 } from "../components/Sections"
+import { gsap } from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
 export default () => {
+  if (typeof window !== "undefined") {
+    gsap.registerPlugin(ScrollTrigger)
+  }
   return (
     <Layout>
       <SEO title="Kloud Partners" />

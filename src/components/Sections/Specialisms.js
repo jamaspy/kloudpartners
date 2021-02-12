@@ -1,11 +1,13 @@
 import React, { useEffect } from "react"
 import SVG from "../../images/middle.svg"
-import gsap from "gsap"
+import { gsap } from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 
 const About = () => {
-  useEffect(() => {
+  if (typeof window !== "undefined") {
     gsap.registerPlugin(ScrollTrigger)
+  }
+  useEffect(() => {
     let tl = gsap.timeline({
       scrollTrigger: ".spectitle",
       start: "center bottom",
