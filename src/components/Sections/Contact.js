@@ -1,12 +1,27 @@
-import React from "react"
+import React, { useEffect } from "react"
 import SVG from "../../images/last.svg"
 import { FiPhoneCall } from "@react-icons/all-files/fi/FiPhoneCall"
 import { FiMail } from "@react-icons/all-files/fi/FiMail"
+import gsap from "gsap"
+import { ScrollTrigger } from "gsap/ScrollTrigger"
+
 const Contact = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger)
+    let tl = gsap.timeline({
+      scrollTrigger: ".trigger",
+      start: "top bottom",
+    })
+    tl.from(
+      ".contsvg",
+      { y: 100, opacity: 0, duration: 1.5, scale: 0.5 },
+      "-=1"
+    )
+  }, [])
   return (
-    <div className="flex flex-col w-full">
+    <div className="trigger flex flex-col w-full">
       <div className="w-full h-full flex justify-center p-4">
-        <img src={SVG} alt="svg contact" />
+        <img className="contsvg" src={SVG} alt="svg contact" />
       </div>
       <div className="w-full h-full flex-auto flex-col justify-around bg-gradient-to-t from-mainBlue to-darkBlue p-8">
         <div className="">

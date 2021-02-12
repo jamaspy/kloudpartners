@@ -17,7 +17,7 @@ const Landing = () => {
       logo: file(name: { eq: "kp_logo" }) {
         name
         childImageSharp {
-          fluid(maxWidth: 1920, quality: 90, webpQuality: 90) {
+          fluid(maxWidth: 2000, quality: 100, webpQuality: 100) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -28,7 +28,7 @@ const Landing = () => {
     gsap.to(".image", {
       visibility: "visible",
       delay: 0.2,
-      duration: 5,
+      duration: 3,
       ease: "power-3",
       y: -60,
       scale: 1.1,
@@ -39,7 +39,7 @@ const Landing = () => {
     <div className="h-screen">
       <Hero img={data.hero.childImageSharp.fluid} home={true}>
         <div className="flex items-center justify-center h-full w-full">
-          <div className="invisible image max-w-md m-auto w-full p-8">
+          <div className="invisible image max-w-lg m-auto w-full p-8">
             <Img fluid={data.logo.childImageSharp.fluid} />
           </div>
         </div>
