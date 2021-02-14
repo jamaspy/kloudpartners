@@ -9,7 +9,7 @@ const About = () => {
   }
   useEffect(() => {
     let tl = gsap.timeline({
-      scrollTrigger: ".spectitle",
+      scrollTrigger: ".specsvg",
       start: "center bottom",
     })
     tl.from(".spectitle", { x: 200, opacity: 0, duration: 1.5 })

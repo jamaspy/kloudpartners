@@ -9,7 +9,7 @@ const Testimonials = () => {
   }
   useEffect(() => {
     let tl = gsap.timeline({
-      scrollTrigger: ".testtitle",
+      scrollTrigger: ".testsvg",
       start: "center bottom",
     })
     tl.from(".testtitle", { x: 200, opacity: 0, duration: 1.5 })
