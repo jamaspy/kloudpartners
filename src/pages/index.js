@@ -16,7 +16,10 @@ export default () => {
   }
   return (
     <Layout>
-      <SEO title="Kloud Partners" />
+      <SEO
+        title="Kloud Partners"
+        description="Software Sales Recruitment Company Based In Sydney"
+      />
       <Landing />
       <About />
       <Specialism />
