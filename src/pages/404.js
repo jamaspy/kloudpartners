@@ -6,7 +6,7 @@ import notFoundImage from "../images/not-a-path.svg"
 export default () => {
   return (
     <Layout>
-      <main className="max-w-4xl flex-grow mx-auto flex flex-col justify-center">
+      <main className="max-w-4xl flex-grow mx-auto flex flex-col justify-center py-10">
         <p className="text-6xl font-black text-center text-kpDark">
           Oh No! You appear to gone off track.
         </p>

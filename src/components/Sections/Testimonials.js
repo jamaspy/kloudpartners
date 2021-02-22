@@ -42,26 +42,34 @@ const Testimonials = () => {
             className="font-black text-4xl md:text-8xl text-white leading-loose	"
             style={{ lineHeight: 1.2 }}
           >
-            help growing software companies scale quickly
+            trusted by global industry leaders
           </p>
         </div>
 
         <div>
           <p className="testcontent text-xl md:text-2xl text-white text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+            <span className="font-black">"</span>Deserunt nostrud do eu in qui
+            proident culpa. Lorem nisi est id et adipisicing commodo aute
+            adipisicing. Mollit elit sit est tempor sint culpa dolore quis sint.
+            Cupidatat est culpa excepteur nulla non velit fugiat pariatur veniam
+            ea mollit enim eiusmod. Reprehenderit esse sit deserunt id. Aliqua
+            anim enim dolor mollit. Pariatur sit ad laboris velit commodo
+            reprehenderit aute non.<span className="font-black">"</span>
+          </p>
+          <p className="italic font-semibold text-white mt-4">
+            John Smith <span className="font-black">|</span> SalesForce
           </p>
           <p className="testcontent text-xl md:text-2xl text-white mt-4 text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+            <span className="font-black">"</span>Deserunt nostrud do eu in qui
+            proident culpa. Lorem nisi est id et adipisicing commodo aute
+            adipisicing. Mollit elit sit est tempor sint culpa dolore quis sint.
+            Cupidatat est culpa excepteur nulla non velit fugiat pariatur veniam
+            ea mollit enim eiusmod. Reprehenderit esse sit deserunt id. Aliqua
+            anim enim dolor mollit. Pariatur sit ad laboris velit commodo
+            reprehenderit aute non.<span className="font-black">"</span>
+          </p>
+          <p className="italic font-semibold text-white mt-4">
+            John Smith <span className="font-black">|</span> SalesForce
           </p>
         </div>
       </div>
