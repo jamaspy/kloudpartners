@@ -45,7 +45,7 @@ const Contact = () => {
               <FiMail className="text-white" />
             </p>
             <p className="text-2xl md:text-6xl text-white font-bold">
-              info@kloudpartners.com
+              <a href="mailto:info@kloudpartners.com">info@kloudpartners.com</a>
             </p>
           </div>
         </div>

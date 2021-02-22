@@ -47,20 +47,21 @@ const About = () => {
 
         <div>
           <p className="aboutcontent text-xl md:text-2xl text-white text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+            Above all else, we at Kloud Partners want to see our clients grow.
+            We believe that there is untold potential in the tech sector across
+            the APAC region, and to support that potential, we are constantly
+            seeking out up-and-coming as well as proven talent, connecting them
+            with the organisations with which they will thrive.
           </p>
           <p className="aboutcontent text-xl md:text-2xl text-white mt-4 text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+            This is our one and only focus: development. To us, that comes down
+            to people. We make ourselves familiar with the top 1% of all talent
+            in the APAC region because we know that is the talent bound to make
+            a difference. When our clients put their trust in us, letting us
+            find the next addition to their team, we take that seriously. We
+            dedicate our resources to meeting and exceeding their expectations,
+            abiding by the five-part work philosophy: work hard, be honest, be
+            respectful, deliver on promises, and have fun.
           </p>
         </div>
       </div>

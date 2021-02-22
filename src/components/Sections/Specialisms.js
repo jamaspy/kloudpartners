@@ -39,26 +39,27 @@ const About = () => {
             className="font-black text-4xl md:text-8xl text-white leading-loose	"
             style={{ lineHeight: 1.2 }}
           >
-            help growing software companies scale quickly
+            top performing talent tailored to your needs
           </p>
         </div>
 
         <div>
           <p className="speccontent text-xl md:text-2xl text-white text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+            Our process is straightforward, and we set measurable goals. Within
+            seven days, we aim to bring our clients between three and five
+            candidates. We average a fill rate of 27 days, which means that in
+            less than a month, you and your next team player could be working
+            together and planning out your next moves. Through this process, we
+            empower software companies to scale rapidly, accessing the talent
+            necessary to continue to move forward.
           </p>
-          <p className="speccontent text-xl md:text-2xl text-white mt-4 text-justify">
-            Deserunt nostrud do eu in qui proident culpa. Lorem nisi est id et
-            adipisicing commodo aute adipisicing. Mollit elit sit est tempor
-            sint culpa dolore quis sint. Cupidatat est culpa excepteur nulla non
-            velit fugiat pariatur veniam ea mollit enim eiusmod. Reprehenderit
-            esse sit deserunt id. Aliqua anim enim dolor mollit. Pariatur sit ad
-            laboris velit commodo reprehenderit aute non.
+
+          <p className="speccontent text-xl md:text-2xl text-white text-justify mt-4">
+            Kloud Partners is here to foster a stronger, more resilient tech
+            sector in the APAC region by building bridges. We are confident that
+            one placement at a time, we can forge new pathways. Talent is our
+            business, recruitment is our method, and every step of the way, we
+            are looking out for you.
           </p>
         </div>
       </div>
