@@ -8,9 +8,12 @@ module.exports = {
     title: "Kloud Partners",
     author: "James Aspinall",
     description: "Software Sales Recruitment Company",
+    siteUrl: `https://www.kloudpartners.com`,
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-robots-txt",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

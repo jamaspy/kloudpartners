@@ -47,29 +47,32 @@ const Testimonials = () => {
         </div>
 
         <div>
-          <p className="testcontent text-xl md:text-2xl text-white text-justify">
-            <span className="font-black">"</span>Deserunt nostrud do eu in qui
-            proident culpa. Lorem nisi est id et adipisicing commodo aute
-            adipisicing. Mollit elit sit est tempor sint culpa dolore quis sint.
-            Cupidatat est culpa excepteur nulla non velit fugiat pariatur veniam
-            ea mollit enim eiusmod. Reprehenderit esse sit deserunt id. Aliqua
-            anim enim dolor mollit. Pariatur sit ad laboris velit commodo
-            reprehenderit aute non.<span className="font-black">"</span>
+          <p className="testcontent font-light text-xl md:text-2xl text-white text-justify">
+            <span className="font-black">"</span>Terry possesses a sound
+            knowledge of the SaaS and AdTech space and works with a wide network
+            of well-qualified individuals across a range of job disciplines.
+            What I value the most is that he carefully listens to the job
+            requirement and does a thorough screening before putting forth any
+            candidate. What made the entire experience even better was the time
+            in which he was able to deliver. Having a partnership with Terry has
+            significantly improved our time-to-hire on strategic roles over the
+            past six months. Terry is knowledgeable, articulate and highly
+            reliable. I look forward to working with him as our team at Celtra
+            grows from strength to strength.
+            <span className="font-black">"</span>
           </p>
-          <p className="italic font-semibold text-white mt-4">
-            John Smith <span className="font-black">|</span> SalesForce
+          <p className="testcontent italic font-semibold text-white mt-4">
+            Raushida Vasaiwala (GM of APAC){" "}
+            <span className="font-black">|</span> Celtra (MarTech Software)
           </p>
-          <p className="testcontent text-xl md:text-2xl text-white mt-4 text-justify">
-            <span className="font-black">"</span>Deserunt nostrud do eu in qui
-            proident culpa. Lorem nisi est id et adipisicing commodo aute
-            adipisicing. Mollit elit sit est tempor sint culpa dolore quis sint.
-            Cupidatat est culpa excepteur nulla non velit fugiat pariatur veniam
-            ea mollit enim eiusmod. Reprehenderit esse sit deserunt id. Aliqua
-            anim enim dolor mollit. Pariatur sit ad laboris velit commodo
-            reprehenderit aute non.<span className="font-black">"</span>
+          <p className="testcontent font-light text-xl md:text-2xl text-white mt-4 text-justify">
+            <span className="font-black">"</span>Terry Burns - bar none the best
+            Recruiter I've ever worked with. Ask for him by name 🙂
+            <span className="font-black">"</span>
           </p>
-          <p className="italic font-semibold text-white mt-4">
-            John Smith <span className="font-black">|</span> SalesForce
+          <p className="testcontent italic font-semibold text-white mt-4">
+            Gary Chan (Head of Talent)<span className="font-black"> |</span>{" "}
+            Cornerstone on Demand (HCM software)
           </p>
         </div>
       </div>
