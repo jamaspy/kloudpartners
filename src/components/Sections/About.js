@@ -46,14 +46,14 @@ const About = () => {
         </div>
 
         <div>
-          <p className="aboutcontent text-xl md:text-2xl text-white text-justify">
+          <p className="aboutcontent text-xl font-light md:text-2xl text-white text-justify">
             Above all else, we at Kloud Partners want to see our clients grow.
             We believe that there is untold potential in the tech sector across
             the APAC region, and to support that potential, we are constantly
             seeking out up-and-coming as well as proven talent, connecting them
             with the organisations with which they will thrive.
           </p>
-          <p className="aboutcontent text-xl md:text-2xl text-white mt-4 text-justify">
+          <p className="aboutcontent text-xl font-light md:text-2xl text-white mt-4 text-justify">
             This is our one and only focus: development. To us, that comes down
             to people. We make ourselves familiar with the top 1% of all talent
             in the APAC region because we know that is the talent bound to make

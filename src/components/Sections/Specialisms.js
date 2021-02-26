@@ -44,7 +44,7 @@ const About = () => {
         </div>
 
         <div>
-          <p className="speccontent text-xl md:text-2xl text-white text-justify">
+          <p className="speccontent font-light text-xl md:text-2xl text-white text-justify">
             Our process is straightforward, and we set measurable goals. Within
             seven days, we aim to bring our clients between three and five
             candidates. We average a fill rate of 27 days, which means that in
@@ -54,7 +54,7 @@ const About = () => {
             necessary to continue to move forward.
           </p>
 
-          <p className="speccontent text-xl md:text-2xl text-white text-justify mt-4">
+          <p className="speccontent font-light text-xl md:text-2xl text-white text-justify mt-4">
             Kloud Partners is here to foster a stronger, more resilient tech
             sector in the APAC region by building bridges. We are confident that
             one placement at a time, we can forge new pathways. Talent is our

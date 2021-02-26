@@ -37,7 +37,7 @@ const Contact = () => {
               <FiPhoneCall className="text-white" />
             </p>
             <p className="text-2xl md:text-6xl text-white font-bold">
-              0423 576 498
+              +61 474 152 239
             </p>
           </div>
           <div className="flex flex-row justify-center items-center">
@@ -45,7 +45,9 @@ const Contact = () => {
               <FiMail className="text-white" />
             </p>
             <p className="text-2xl md:text-6xl text-white font-bold">
-              <a href="mailto:info@kloudpartners.com">info@kloudpartners.com</a>
+              <a href="mailto:terry@kloudpartners.com">
+                terry@kloudpartners.com
+              </a>
             </p>
           </div>
         </div>
