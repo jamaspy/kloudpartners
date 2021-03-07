@@ -38,7 +38,7 @@ const About = () => {
       <div className="w-full h-full flex flex-col justify-evenly bg-gradient-to-t from-darkBlue to-mainBlue p-8">
         <div className="abouttitle mb-8">
           <p
-            className="font-black text-4xl md:text-8xl text-white leading-loose	"
+            className="font-black text-4xl md:text-8xl xl:text-9xl text-white leading-loose	"
             style={{ lineHeight: 1.2 }}
           >
             help growing software companies scale quickly
@@ -46,14 +46,14 @@ const About = () => {
         </div>
 
         <div>
-          <p className="aboutcontent text-xl font-light md:text-2xl text-white text-justify">
+          <p className="aboutcontent text-xl font-light md:text-2xl xl:text-3xl leading-relaxed text-white ">
             Above all else, we at Kloud Partners want to see our clients grow.
             We believe that there is untold potential in the tech sector across
             the APAC region, and to support that potential, we are constantly
             seeking out up-and-coming as well as proven talent, connecting them
             with the organisations with which they will thrive.
           </p>
-          <p className="aboutcontent text-xl font-light md:text-2xl text-white mt-4 text-justify">
+          <p className="aboutcontent text-xl font-light md:text-2xl xl:text-3xl leading-relaxed text-white mt-4 ">
             This is our one and only focus: development. To us, that comes down
             to people. We make ourselves familiar with the top 1% of all talent
             in the APAC region because we know that is the talent bound to make
