@@ -39,15 +39,16 @@ const Testimonials = () => {
       >
         <div className="testtitle mb-8">
           <p
-            className="font-black text-4xl md:text-8xl text-white leading-loose	"
+            className="font-black text-4xl md:text-8xl xl:text-9xl text-white leading-loose	"
             style={{ lineHeight: 1.2 }}
           >
             trusted by global industry leaders
           </p>
         </div>
 
+        <div className='h-full flex justify-evenly flex-col'>
         <div>
-          <p className="testcontent font-light text-xl md:text-2xl text-white text-justify">
+          <p className="testcontent font-light text-xl md:text-2xl xl:text-4xl text-white ">
             <span className="font-black">"</span>Terry possesses a sound
             knowledge of the SaaS and AdTech space and works with a wide network
             of well-qualified individuals across a range of job disciplines.
@@ -61,19 +62,22 @@ const Testimonials = () => {
             grows from strength to strength.
             <span className="font-black">"</span>
           </p>
-          <p className="testcontent italic font-semibold text-white mt-4">
+          <p className="testcontent italic font-semibold text-white mt-4 text-xl">
             Raushida Vasaiwala (GM of APAC){" "}
             <span className="font-black">|</span> Celtra (MarTech Software)
           </p>
-          <p className="testcontent font-light text-xl md:text-2xl text-white mt-4 text-justify">
+          </div>
+          <div>
+          <p className="testcontent font-light text-xl md:text-2xl xl:text-4xl text-white mt-8">
             <span className="font-black">"</span>Terry Burns - bar none the best
             Recruiter I've ever worked with. Ask for him by name 🙂
             <span className="font-black">"</span>
           </p>
-          <p className="testcontent italic font-semibold text-white mt-4">
+          <p className="testcontent italic font-semibold text-white mt-4 text-xl">
             Gary Chan (Head of Talent)<span className="font-black"> |</span>{" "}
             Cornerstone on Demand (HCM software)
           </p>
+          </div>
         </div>
       </div>
     </div>
