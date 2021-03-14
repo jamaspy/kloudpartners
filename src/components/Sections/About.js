@@ -13,7 +13,8 @@ const About = () => {
       scrollTrigger: ".aboutsvg",
       start: "center bottom",
     })
-    tl.from(".abouttitle", { x: 200, opacity: 0, duration: 1.5 })
+    tl.from(".divBox", { x: 400, opacity: 0, duration: 1.5 })
+    tl.from(".abouttitle", { x: 200, opacity: 0, duration: 1.5 }, "-=1")
       .from(
         ".aboutsvg",
         { x: -200, opacity: 0, duration: 1.5, scale: 0.8 },
@@ -31,16 +32,18 @@ const About = () => {
   }, [])
 
   return (
-    <div className="min-h-screen xl:h-screen flex flex-col xl:flex-row w-full">
-      <div className="w-full h-full flex justify-center p-8">
-        <img className="aboutsvg" src={SVG} alt="svg" />
+    <div className="flex flex-col 2xl:flex-row w-full">
+      <div className="2xl:w-1/2 flex justify-center  my-auto">
+        <img
+          className="aboutsvg"
+          src={SVG}
+          alt="svg"
+          style={{ maxHeight: 650 }}
+        />
       </div>
-      <div className="w-full h-full flex flex-col justify-evenly bg-gradient-to-t from-darkBlue to-mainBlue p-8">
+      <div className="divBoxAbout 2xl:w-1/2 flex flex-col justify-evenly bg-gradient-to-t from-darkBlue to-mainBlue p-8">
         <div className="abouttitle mb-8">
-          <p
-            className="font-black text-4xl md:text-8xl xl:text-9xl text-white leading-loose	"
-            style={{ lineHeight: 1.2 }}
-          >
+          <p className="font-black text-4xl xl:text-6xl 2xl:text-8xl text-white leading-loose">
             help growing software companies scale quickly
           </p>
         </div>

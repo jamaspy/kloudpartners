@@ -12,7 +12,8 @@ const About = () => {
       scrollTrigger: ".specsvg",
       start: "center bottom",
     })
-    tl.from(".spectitle", { x: 200, opacity: 0, duration: 1.5 })
+    tl.from(".divBoxSpec", { x: -400, opacity: 0, duration: 1.5 })
+    tl.from(".spectitle", { x: 200, opacity: 0, duration: 1.5 }, "-=1")
       .from(
         ".specsvg",
         { x: 300, opacity: 0, duration: 1.5, scale: 0.2 },
@@ -29,16 +30,13 @@ const About = () => {
       )
   }, [])
   return (
-    <div className="min-h-screen xl:h-screen flex flex-col xl:flex-row-reverse w-full">
-      <div id="left" className="w-full h-full flex justify-center p-8">
+    <div className="flex flex-col 2xl:flex-row-reverse w-full">
+      <div className="2xl:w-1/2 flex justify-center my-auto">
         <img className="specsvg" src={SVG} alt="svg" />
       </div>
-      <div className="w-full h-full flex flex-col justify-evenly bg-gradient-to-t from-mainBlue to-darkBlue p-8">
+      <div className="divBoxSpec 2xl:w-1/2 flex flex-col justify-evenly bg-gradient-to-t from-mainBlue to-darkBlue p-8">
         <div className="spectitle mb-8">
-          <p
-            className="font-black text-4xl md:text-8xl xl:text-9xl text-white leading-loose	"
-            style={{ lineHeight: 1.2 }}
-          >
+          <p className="font-black text-4xl xl:text-6xl 2xl:text-8xl text-white leading-loose">
             top performing talent tailored to your needs
           </p>
         </div>
